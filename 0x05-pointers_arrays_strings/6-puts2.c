@@ -1,3 +1,11 @@
+#include "main.h"
+/**
+ * puts2 - a function that prints only one character out of two
+ * starting with the first one
+ * @str: string input
+ * Return: print
+ */
+
 void puts2(char *str)
 {
 	int len = 0;
