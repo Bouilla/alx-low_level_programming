@@ -1,17 +1,17 @@
-#include <stdio.h>
 #include <main.h>
 /**
-  *main - Entery point
-  *
-  *_puts_recursion a function that prints a string in reverse.
-  *@s the string to be printed
+  *_puts_recursion : prints a string in reverse.
+  *@s : string to be printed
+  *return :nothing
  */
 void _puts_recursion(char *s)
 {
-	if (*s)
+	if (*s != '\0')
 	{
-		_puts_recursion(s + 1);
 		_putchar(*s);
+		_puts_recursion(s + 1);
 
 	}
+	else
+		_putchar('\n');
 }
