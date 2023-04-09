@@ -1,4 +1,4 @@
-[200~#include "main.h"
+#include "main.h"
 /**
  *  *_pow_recursion - value of x raised of y
  *   *@x: int
