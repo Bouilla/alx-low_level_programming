@@ -1,10 +1,11 @@
 #ifndef LISTS_H
 #define LISTS_H
 
-/*
+/**
  *  * File: lists.h
  *   * Auth: Florence Hanson
- *     * Desc: Header file containing prototypes and definitions     */
+ *     * Desc: Header file containing prototypes and definition
+ */
 
 #include <stdlib.h>
 
@@ -15,7 +16,8 @@
  *     * @next: points to the next node
  *      *
  *       * Description: singly linked list node structure
-*/       
+ */
+
 typedef struct list_s
 {
 char *str;

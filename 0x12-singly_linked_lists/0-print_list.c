@@ -2,11 +2,10 @@
 #include <stdio.h>
 
  /**
-  *  * print_list - Entry point
-  *   * @h: Input
-  *    *
-  *     * Return: The number of nodes in h.
-*/
+ * print_list - check the code
+ * @h: listheader
+ * Return: list size
+ */
 size_t print_list(const list_t *h)
 {
 size_t nodes = 0;
